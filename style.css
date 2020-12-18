@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0; text-decoration: none; }
+
+.navbar { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: right; -ms-flex-pack: right; justify-content: right; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100vw; height: 6vh; }
+
+.navbar a { color: #2b2b2b; margin-right: 2rem; font-size: 0.9rem; }
+
+.navbar .github-profile { background-image: url("https://avatars2.githubusercontent.com/u/47925045?s=460&u=2df8f224dd268eb11b6f43d445c2fdbbce2248d8&v=4"); background-size: cover; width: 30px; height: 30px; border-radius: 50%; }
+
+.content { width: 30vw; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin: auto; margin-top: 10vh; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.content .search-form { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin-top: 1vh; width: 45vw; padding: 0.5rem 1rem; border: 1px solid lightgrey; border-radius: 18px; }
+
+.content .search-form svg { fill: grey; }
+
+.content .search-form input { width: 90%; height: 1.5rem; border: none; outline: none; }
+
+.content .search-form:hover { -webkit-box-shadow: 0px 0px 8px lightgrey; box-shadow: 0px 0px 8px lightgrey; }
+
+.content .search-buttons { margin-top: 4vh; }
+
+.content .search-buttons button { margin: 0 0.5rem; outline: none; border: 1px solid #f2f2f2; background: #f2f2f2; font-size: 0.9rem; color: #5e5e5e; padding: 0.8rem; border-radius: 10px; }
+
+.content .search-buttons button:hover { cursor: pointer; border: 1px solid #bfbfbf; color: #383838; -webkit-box-shadow: 0px 0px 4px lightgrey; box-shadow: 0px 0px 4px lightgrey; }
+
+.footer { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; position: fixed; left: 0; bottom: 0; width: 100%; height: 4vh; background-color: #f2f2f2; border-top: 1px solid lightgrey; }
+
+.footer a { color: #676767; font-size: 0.8rem; margin: 0 0.8rem; }
+/*# sourceMappingURL=style.css.map */
